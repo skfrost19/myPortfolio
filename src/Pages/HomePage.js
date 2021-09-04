@@ -24,17 +24,25 @@ function HomePage() {
           problems.
         </p>
         <div className="icons">
-          <Link to="https://github.com/skfrost19" className="icon-holder">
+          <Link
+            to={{ pathname: "https://github.com/skfrost19" }}
+            target="_blank"
+            className="icon-holder"
+          >
             <FontAwesomeIcon icon={faGithub} className="icon gh" />
           </Link>
           <Link
-            to="https://www.linkedin.com/in/shahil-kumar-2375811b1/"
+            to={{
+              pathname: "https://www.linkedin.com/in/shahil-kumar-2375811b1/",
+            }}
+            target="_blank"
             className="icon-holder"
           >
             <FontAwesomeIcon icon={faLinkedin} className="icon yt" />
           </Link>
           <Link
-            to="https://www.hackerrank.com/saahhiill123456"
+            to={{ pathname: "https://www.hackerrank.com/saahhiill123456" }}
+            target="_blank"
             className="icon-holder"
           >
             <FontAwesomeIcon icon={faHackerrank} className="icon yt" />
